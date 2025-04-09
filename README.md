@@ -13,3 +13,7 @@ This repository showcases my LaTeX typesetting work across multiple formats:
 - **Scientific Posters:** Designed with TikZ and custom templates.
 
 Each subfolder contains both the source `.tex` files and the compiled `.pdf` documents.
+
+## Introduction to Chemistry course, example homework assignment
+
+[![Homework Preview](typesetting-portfolio/chemistry homework assignment/homework_preview.png)](typesetting-portfolio/chemistry homework assignment/homework.pdf)
