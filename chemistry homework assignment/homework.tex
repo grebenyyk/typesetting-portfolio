@@ -1,0 +1,112 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{nopageno}
+\usepackage{tabularx}
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage[version=4]{mhchem}
+\geometry{left=2cm, right=2cm, top=2.5cm, bottom=2.5cm}
+\setmainfont{CMU Serif}
+\usepackage{siunitx} % For SI units
+\sisetup{
+  per-mode=symbol, % Display fractions with a slash (e.g., m/s)
+  output-decimal-marker={,} % Use a comma as the decimal separator
+}
+
+% Manually define Russian unit names
+\DeclareSIUnit{\celsius}{°C} % Celsius remains standard
+\DeclareSIUnit{\kelvin}{K}
+\DeclareSIUnit{\bar}{бар}
+\DeclareSIUnit{\pacsal}{Па}
+\DeclareSIUnit{\kpacsal}{кПа}
+\DeclareSIUnit{\liter}{л}
+\DeclareSIUnit{\mole}{моль}
+\DeclareSIUnit{\gram}{г}
+\DeclareSIUnit{\kg}{кг}
+\DeclareSIUnit{\meter}{м}
+\DeclareSIUnit{\second}{с}
+\DeclareSIUnit{\moleperliter}{M}
+\DeclareSIUnit{\ml}{мл}
+\DeclareSIUnit{\grampercm}{г/см$^{3}$}
+
+% Disable indentation globally
+\setlength{\parindent}{0pt}
+
+% === Begin document ===
+\begin{document}
+\begin{minipage}[t]{\textwidth}
+\vspace*{0pt} % align with top
+% Use \leavevmode to start horizontal mode (forces normal line layout)
+\leavevmode Фамилия, имя \hrulefill
+\begin{center}
+  \LARGE Домашняя работа №2
+\end{center}
+\end{minipage}
+
+\setlength{\parindent}{15pt}
+\section*{Задача 1}
+а) Рассчитайте pH \SI{0.1}{\moleperliter} раствора серной кислоты.\par
+\vspace{5\baselineskip}
+б) Каким станет значение pH этого раствора, если добавить к нему равный объем \SI{0.2}{\moleperliter} раствора NaOH?\par
+\vspace{5\baselineskip}
+\section*{Задача 2}
+Запишите уравнение диссоциации фтороводородной кислоты, подпишите сопряженные кислотно-основные пары.\par
+\vspace{0.5\baselineskip}
+{\centering\ce{\rule{4em}{0.2pt} + H2O -> \rule{8em}{0.2pt}}\par}
+\vspace*{2\baselineskip}
+\section*{Задача 3}
+Распределите формулы кислот в таблицу в соответствии с их силой: \ce{HNO3}, \ce{HF}, \ce{H2SO4}, \ce{HCl}, \ce{HClO4}, \ce{H2SO3}, \ce{H2CO3}, \ce{H2S}.\par
+\vspace{0.5\baselineskip}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+Сильные кислоты & Слабые кислоты\\ 
+\hline
+ & \\ 
+ & \\ 
+& \\ 
+\hline
+\end{tabularx}
+
+\section*{Задача 4}
+К \SI{25}{\gram} карбоната кальция добавили \SI{20}{\ml} концентрированной соляной кислоты (массовая доля кислоты \SI{36}{$\%$}, плотность \SI{1.16}{\grampercm}). Рассчитайте объем выделившегося газа (н. у.) и массу не растворившегося остатка.
+
+\newpage
+\begin{minipage}[t]{\textwidth}
+\vspace*{0pt} % align with top
+% Use \leavevmode to start horizontal mode (forces normal line layout)
+\leavevmode Фамилия, имя \hrulefill
+\begin{center}
+  \LARGE Домашняя работа №2
+\end{center}
+\end{minipage}
+
+\setlength{\parindent}{15pt}
+\section*{Задача 1}
+а) Рассчитайте pH \SI{0.03}{\moleperliter} раствора cоляной кислоты.\par
+\vspace{5\baselineskip}
+б) Каким станет значение pH этого раствора, если добавить к нему равный объем \SI{0.03}{\moleperliter} раствора NaOH?\par
+\vspace{5\baselineskip}
+\section*{Задача 2}
+Запишите уравнение диссоциации хлорной кислоты, подпишите сопряженные кислотно-основные пары.\par
+\vspace{0.5\baselineskip}
+{\centering\ce{\rule{4em}{0.2pt} + H2O -> \rule{8em}{0.2pt}}\par}
+\vspace*{2\baselineskip}
+\section*{Задача 3}
+Распределите формулы кислот в таблицу в соответствии с их силой: \ce{HI}, \ce{HBr}, \ce{HNO2}, \ce{HNO3}, \ce{HF}, \ce{H2SO4}, \ce{H2SO3}, \ce{H2CO3}.\par
+\vspace{0.5\baselineskip}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\begin{tabularx}{\textwidth}{|Y|Y|}
+\hline
+Сильные кислоты & Слабые кислоты\\ 
+\hline
+ & \\ 
+ & \\ 
+ & \\ 
+\hline
+\end{tabularx}
+\section*{Задача 4}
+К \SI{5}{\gram} карбоната магния добавили \SI{10}{\ml} азотной кислоты с концентрацией \SI{1}{\moleperliter}, при этом наблюдали выделение газа. Рассчитайте объем, который займет этот газ при температуре \SI{25}{\celsius} и давлении \SI{1}{\bar}.
+\end{document}
+
