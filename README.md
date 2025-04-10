@@ -12,6 +12,9 @@ Each subfolder contains both the source `.tex` files and the compiled `.pdf` doc
 ## One-Page Academic CV
 [![CV Preview](academic-cv/cv_preview.png)](academic-cv/cv.pdf)
 
+## Tri-lingual Introduction to Chemistry textbook
+[![Book Preview](introduction-to-chemistry-book/book_preview.png)]()
+
 ## Introduction to Chemistry course, example homework assignment
 [![Homework Preview](chemistry-homework-assignment/homework_preview.png)](chemistry-homework-assignment/homework.pdf)
 
