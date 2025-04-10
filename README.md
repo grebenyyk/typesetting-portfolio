@@ -20,3 +20,4 @@ Each subfolder contains both the source `.tex` files and the compiled `.pdf` doc
 
 ## One-Page Academic CV
 [![CV Preview](academic-cv/cv_preview.png)](academic-cv/cv.pdf)
+
