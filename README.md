@@ -17,6 +17,3 @@ Each subfolder contains both the source `.tex` files and the compiled `.pdf` doc
 
 ## Introduction to Chemistry course, example homework assignment
 [![Homework Preview](chemistry-homework-assignment/homework_preview.png)](chemistry-homework-assignment/homework.pdf)
-
-
-
